@@ -1,8 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Fragment ,useState} from 'react';
 import './Create.css';
 import Header from '../Header/Header';
 
 const Create = () => {
+
+const [name,setName]=useState['']
+const [category,setCategory]=useState('')
+const [price,setPrice]=useState('')
+const [image,setImage]=useState(null)
+
+
   return (
     <Fragment>
       <Header />
